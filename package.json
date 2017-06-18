@@ -1,0 +1,24 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "とりあえずWebで表示してみたいなぁと思った際に、ファイルを置けばファイル名でアクセス出来る的なサーバー",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daijinload/web-server.git"
+  },
+  "author": "daijinload@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daijinload/web-server/issues"
+  },
+  "homepage": "https://github.com/daijinload/web-server#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "private": true
+}
